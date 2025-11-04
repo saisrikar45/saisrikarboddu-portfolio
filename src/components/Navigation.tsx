@@ -52,11 +52,6 @@ const Navigation = () => {
                 {link.label}
               </button>
             ))}
-            <Button variant="default" size="sm" asChild>
-              <a href="/Saisrikar_Boddu_Resume.pdf" download="Saisrikar_Boddu_Resume.pdf">
-                Download Resume
-              </a>
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -80,11 +75,6 @@ const Navigation = () => {
                 {link.label}
               </button>
             ))}
-            <Button variant="default" size="sm" className="w-full mt-4" asChild>
-              <a href="/Saisrikar_Boddu_Resume.pdf" download="Saisrikar_Boddu_Resume.pdf">
-                Download Resume
-              </a>
-            </Button>
           </div>
         )}
       </div>
