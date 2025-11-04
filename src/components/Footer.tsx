@@ -1,0 +1,13 @@
+const Footer = () => {
+  return (
+    <footer className="py-8 px-4 bg-card border-t">
+      <div className="container mx-auto text-center">
+        <p className="text-muted-foreground">
+          © 2025 <span className="gradient-text font-semibold">Saisrikar Boddu</span>. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
