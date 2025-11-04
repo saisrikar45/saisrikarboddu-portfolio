@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { User } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const About = () => {
   return (
@@ -13,8 +13,12 @@ const About = () => {
           <CardContent className="p-8 md:p-12">
             <div className="grid md:grid-cols-3 gap-8 items-center">
               <div className="flex justify-center">
-                <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                  <User className="w-24 h-24 text-primary-foreground" />
+                <div className="w-48 h-48 rounded-full overflow-hidden ring-4 ring-primary/20 shadow-lg">
+                  <img 
+                    src={profilePhoto} 
+                    alt="Saisrikar Boddu - Frontend Developer" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               
