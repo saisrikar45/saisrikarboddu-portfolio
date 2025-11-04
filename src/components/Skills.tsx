@@ -19,9 +19,7 @@ const Skills = () => {
       icon: Palette,
       skills: [
         { name: "Bootstrap", level: 90 },
-        { name: "Tailwind CSS", level: 85 },
         { name: "Responsive Design", level: 92 },
-        { name: "UI/UX Principles", level: 80 },
       ],
     },
     {
