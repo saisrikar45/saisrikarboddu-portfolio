@@ -11,7 +11,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-16">
       <div className="container mx-auto text-center animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          <span className="gradient-text">Saisrikar Boddu</span>
+          <span className="gradient-text">SaiSrikar Boddu</span>
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold text-foreground/80 mb-4">
           Frontend Developer
