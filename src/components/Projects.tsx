@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Personal Dashboard",
       description: "Interactive dashboard with clean UI featuring real-time data visualization and JavaScript interactivity.",
       tech: ["JavaScript", "HTML5", "CSS3"],
-      github: "https://github.com/saisrikar45/DashBoard-Projecthttps://github.com/saisrikar45/DashBoard-Project",
+      github: "https://github.com/saisrikar45/DashBoard-Project",
       demo: "https://saisrikar45.github.io/DashBoard-Project",
     },
     {
