@@ -8,7 +8,6 @@ const Projects = () => {
       title: "Pickles Website",
       description: "Responsive e-commerce site showcasing various pickle products with modern UI and Bootstrap framework.",
       tech: ["HTML5", "CSS3", "Bootstrap"],
-      github: "https://github.com/saisrikar45/PicklesWebsite",
       demo: "https://saisrikar45.github.io/pickles-website",
     },
     {
@@ -65,12 +64,14 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-3">
-                  <Button variant="outline" size="sm" asChild>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Github className="mr-2 h-4 w-4" />
-                      Code
-                    </a>
-                  </Button>
+                  {project.github && (
+                    <Button variant="outline" size="sm" asChild>
+                      <a href={project.github} target="_blank" rel="noopener noreferrer">
+                        <Github className="mr-2 h-4 w-4" />
+                        Code
+                      </a>
+                    </Button>
+                  )}
                   <Button size="sm" asChild>
                     <a href={project.demo} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="mr-2 h-4 w-4" />
