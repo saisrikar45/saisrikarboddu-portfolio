@@ -8,7 +8,7 @@ const Projects = () => {
       title: "Pickles Website",
       description: "Responsive e-commerce site showcasing various pickle products with modern UI and Bootstrap framework.",
       tech: ["HTML5", "CSS3", "Bootstrap"],
-      demo: "https://saisrikar45.github.io/pickles-website",
+      demo: "https://github.com/saisrikar45/PicklesWebsite/blob/main/Pickles%20website.png",
     },
     {
       title: "Personal Dashboard",
