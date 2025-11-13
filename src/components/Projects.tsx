@@ -29,7 +29,7 @@ const Projects = () => {
       title: "Camping Template",
       description: "Static webpage showcasing various camping types, benefits, and outdoor adventure information.",
       tech: ["HTML5", "CSS3", "Bootstrap"],
-      github: "https://github.com/saisrikar45/camping-template",
+      github: "https://github.com/saisrikar45/CampingTemplate",
       demo: "https://saisrikar45.github.io/camping-template",
     },
   ];
