@@ -22,8 +22,8 @@ const Projects = () => {
       title: "IPL Template",
       description: "Dynamic IPL information portal built with Bootstrap, displaying team stats, schedules, and player information.",
       tech: ["Bootstrap", "HTML5", "CSS3"],
-      github: "https://github.com/saisrikar45/ipl-template",
-      demo: "https://saisrikar45.github.io/ipl-template",
+      github: "https://github.com/saisrikar45/IPL-Info-Template",
+      demo: " https://saisrikar45.github.io/IPL-Info-Template/",
     },
     {
       title: "Camping Template",
