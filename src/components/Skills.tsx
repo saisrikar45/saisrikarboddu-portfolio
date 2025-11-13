@@ -4,7 +4,7 @@ import { Code2, Palette, Wrench } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Languages & Frameworks",
+      title: "Technical Skills",
       icon: Code2,
       skills: [
         { name: "HTML5", level: 95 },
